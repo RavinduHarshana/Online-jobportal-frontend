@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:"Poppins";
+    font-family: "Poppins";
 }
 
 :root {
@@ -31,13 +31,13 @@ body {
     display: flex;
     gap: 40px;
     font-size: 19px;
-   
-    
+
+
 }
 
-a{
+a {
     text-decoration: none;
-    
+
 }
 
 .Header {
@@ -66,11 +66,11 @@ a{
 
 .herotxt {
     font-size: 65px;
-        
+
 }
 
-.herodescription{
-    color: var(--text-light);    
+.herodescription {
+    color: var(--text-light);
 }
 
 .herobtn {
@@ -85,16 +85,16 @@ a{
     /* transition: 5s; */
 }
 
-.herobtn:hover{
+.herobtn:hover {
     border: #046ad8 solid 3px;
 }
 
-.icons{
+.icons {
     width: 150px;
-    
+
 }
 
-.cards{
+.cards {
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -104,7 +104,7 @@ a{
     gap: 5em;
 }
 
-.card{
+.card {
     color: var(--text-light);
     display: flex;
     flex-direction: column;
@@ -118,7 +118,7 @@ a{
 }
 
 
-.journybox{
+.journybox {
     background-color: var(--primary-color);
     border-radius: 2em;
     height: 16em;
@@ -128,18 +128,19 @@ a{
     padding: 1em;
 
 }
-.journeytxt{
+
+.journeytxt {
     font-size: 2.5em;
 }
 
-.counters{
+.counters {
     margin-top: 2em;
     display: flex;
     gap: 2em;
     justify-content: center;
 }
 
-.Count{
+.Count {
     text-align: center;
     width: 20em;
     border-radius: 2em;
@@ -147,9 +148,35 @@ a{
     /* background-color: rgba(240, 248, 255, 0.201); */
 }
 
-.ctxt{
+.ctxt {
     font-size: 4em;
 }
-.txt{
+
+.txt {
     font-size: 1.5em;
+}
+
+.ourfeautures {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.ourfeautures p {
+    color: var(--text-light);
+    margin: 1em;
+}
+
+.featuresCard{
+    margin: 1em;
+    display: flex;
+    gap: 9em;
+}
+
+.fcard img {
+    width: 4em;
+    height: 4em;
 }
