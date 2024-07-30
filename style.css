@@ -167,11 +167,11 @@ a {
 
 .ourfeautures p {
     color: var(--text-light);
-    margin: 1em;
+    margin: 2em;
 }
 
-.featuresCard{
-    margin: 1em;
+.featuresCard {
+    margin: 2em;
     display: flex;
     gap: 9em;
 }
@@ -180,3 +180,75 @@ a {
     width: 4em;
     height: 4em;
 }
+
+.categories {
+    gap: 1em;
+    display: flex;
+   
+}
+
+
+.ourprojects {
+    margin: 2em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.cate {
+    border-radius: 30px;
+    background-color: #ebedef;
+    padding: .5em 2em;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cate:hover {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.arrows{
+    margin-top: 1em;
+    margin-left: 75%;
+}
+.arrows img {
+    margin: .4em;
+    width: 4em;
+}
+
+.projects{
+    display: flex;
+    gap: 3em;
+    margin: 2em;
+}
+
+.mainpcard{
+    text-align: center;
+    height: 18em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.pcard{
+    width: 15em;
+    height: 18em;
+    overflow: hidden;
+    border-radius: 1em;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue; 
+}
+.pcard img{
+    width: 18em;
+    height: 18em;
+}
+
