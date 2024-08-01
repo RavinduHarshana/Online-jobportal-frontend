@@ -219,7 +219,7 @@ a {
 }
 .arrows img {
     margin: .4em;
-    width: 4em;
+    width: 3em;
 }
 
 .projects{
@@ -246,9 +246,53 @@ a {
     justify-content: center;
     align-items: center;
     background-color: aliceblue; 
+    box-shadow: rgb(89, 88, 88) 10px 10px 30px;
 }
 .pcard img{
     width: 18em;
     height: 18em;
 }
 
+
+.reviewssection{
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:1em;
+    
+}
+
+.reviewSubtitle{
+    color: var(--text-light);
+}
+.review{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 2em;
+}
+.Rarrows{
+    width: 3em;
+    height: 3em;
+}
+
+.profilePic{
+    border-radius: 50%;
+    width: 8em;
+    height: 8em;
+}
+
+.reviewcard{
+    padding: 2em;
+    border-radius: 1em;
+    width: 50em;
+    height: 25em;
+    background-color: #ffffff;
+    box-shadow: rgba(158, 158, 158, 0.765) 10px 10px 30px;
+}
+
+.Reviewdesc{
+    margin: 1.5em;
+}
