@@ -35,6 +35,10 @@ body {
 
 }
 
+.Herolinks{
+    
+}
+
 a {
     text-decoration: none;
 
@@ -294,5 +298,5 @@ a {
 }
 
 .Reviewdesc{
-    margin: 1.5em;
+    /* margin: 1.5em; */
 }
