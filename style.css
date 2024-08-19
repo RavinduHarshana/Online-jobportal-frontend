@@ -305,3 +305,28 @@ a {
 .load-hidden {
     visibility: hidden;
 }
+
+footer{
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 50px 50px 0 0;
+    text-align: center;
+    margin-top:20px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.fcontent{
+  
+    padding: 2em
+}
+.ficons{
+    display: flex;
+    gap:20px;
+}
+
+.ficons img{
+    width: 40px;
+}
