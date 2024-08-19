@@ -35,6 +35,9 @@ body {
 
 }
 
+.logo{
+    color: var(--primary-color);}
+
 .Herolinks{
     
 }

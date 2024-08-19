@@ -6,7 +6,7 @@ const scrollRevealOption = {
 
 ScrollReveal().reveal(".hero-content", {
   ...scrollRevealOption,
-  delay: 500,
+  delay: 900,
 });
 
 ScrollReveal().reveal(".cards", {
@@ -60,4 +60,8 @@ ScrollReveal().reveal(".reviewt  ", {
 ScrollReveal().reveal(".review  ", {
   ...scrollRevealOption,
   delay: 1100,
+});
+ScrollReveal().reveal("footer  ", {
+  ...scrollRevealOption,
+  delay: 1200,
 });
