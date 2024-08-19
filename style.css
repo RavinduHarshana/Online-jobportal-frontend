@@ -297,6 +297,8 @@ a {
     box-shadow: rgba(158, 158, 158, 0.765) 10px 10px 30px;
 }
 
-.Reviewdesc{
-    /* margin: 1.5em; */
+
+
+.load-hidden {
+    visibility: hidden;
 }
