@@ -168,6 +168,9 @@ a {
     align-items: center;
 
 }
+.feuturedesc{
+    text-align: center;
+}
 
 .ourfeautures p {
     color: var(--text-light);
